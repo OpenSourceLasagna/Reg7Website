@@ -1,4 +1,5 @@
 name: Deploy to Github Pages
+
 on:
   push:
     branches:
@@ -13,36 +14,32 @@ jobs:
         node-version: [18.x]
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
       - name: Cache node modules
-        id: cache-nodemodules
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-node-modules
+        uses: actions/cache@v3
         with:
-          # caching node_modules
           path: node_modules
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
-      - name: Install Dependencies
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
         if: steps.cache-nodemodules.outputs.cache-hit != 'true'
-        run: |
-          npm ci --force
-      - name: Build for gh pages
-        run: |
-          npm run-script deploy
-      - name: deploy to gh-pages
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        run: npm ci --force
+
+      - name: Build for GitHub Pages
+        run: npm run deploy
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: dist/reg7
+          branch: gh-pages       # Target branch
+          folder: dist/reg7      # Build folder
+          token: ${{ secrets.GITHUB_TOKEN }}
