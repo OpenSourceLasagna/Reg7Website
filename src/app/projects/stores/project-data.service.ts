@@ -15,7 +15,7 @@ export class ProjectDataService {
 'Eine besondere Herausforderung lag darin, dass einige Liefersysteme nur temporär anzubinden waren, bevor sie im Rahmen der Datenmigration abgeschaltet wurden. Dies galt insbesondere für die Belieferung der Abacus360 Schnittstellen zur Umsetzung von AnaCredit.\n' +
 '\n' +
 'Die Umstellung der ABACUS-Datenanlieferung von Embedded auf das A360-Format nach der Abschaltung des BDAs ist aufwendig. Ein strukturiertes Vorgehen ist daher entscheidend, um Personal- und Kostenaufwand zu minimieren.' +
-'Wir von reg7 GmbH begleiten Sie in allen Phasen dieses Projekts mit unserer langjährigen Erfahrung.'
+'Wir von reg7 GmbH begleiten Sie in allen Phasen dieses Projekts mit unserer langjährigen Erfahrung.' +
 '\n' +
 'Vorgehensmodell in drei Phasen' +
 'Ist-Analyse' +
