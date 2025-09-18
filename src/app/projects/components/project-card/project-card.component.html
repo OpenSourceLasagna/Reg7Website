@@ -4,7 +4,9 @@
          class="card-img-top project-card-img-size">
     <div class="card-body">
         <h5 class="card-title basicText">{{project.title}}</h5>
-        <p class="card-text paragraph limit-card-text ">{{project.text}}</p>
+		<p class="card-text paragraph limit-card-text"
+                  [innerHTML]="project.text">
+        </p>
         <button (click)="c(projectKey)" [routerLink]="'/projekte/' + projectKey" class="paragraph btn
          btn-info" style="width: 50%" type="button">Mehr
             anzeigen
