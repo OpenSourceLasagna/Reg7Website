@@ -34,10 +34,10 @@ export class ProjectDataService {
 '<li><b>DEFAULT</b>-Felder (SOURCE_TYPE = DEFAULT) müssen nicht zwingend angeliefert werden.</li>' +
 '<li>Alle übrigen Felder werden in der Umsetzungsphase einzeln betrachtet. Die Ergebnisse der Ist-Analyse (z. B. Fixwerte) helfen, Arbeitspakete gezielt abzuarbeiten und den Aufwand zu reduzieren.</li></ul>' +
 '<p><p><b>2. Umstellungsphase</b>' +
-'Gemeinsam mit Ihrer Fachabteilung erstellen wir Mapping-Tabellen, die die Konverterregeln für Ihr Geschäftsportfolio exakt abbilden. Dabei berücksichtigen wir die Functional Units des BDAs.' +
+'<p>Gemeinsam mit Ihrer Fachabteilung erstellen wir Mapping-Tabellen, die die Konverterregeln für Ihr Geschäftsportfolio exakt abbilden. Dabei berücksichtigen wir die Functional Units des BDAs.' +
 'Wir koordinieren und unterstützen sowohl die Abstimmung zwischen Fachbereich und IT als auch die technische Umstellung Ihrer Quellsysteme auf eine A360-konforme Anlieferung.' +
-'<p><p><b>3. Regressionstest<b>' +
-'Für die Qualitätssicherung setzen wir auf bewährte Teststrategien, darunter lizenzkostenfreie Regressionstests wie Formularpositionsabgleiche – sowohl auf Ebene der Meldedaten als auch der Eingangsdaten.' +
+'<p><p><b>3. Regressionstest</b>' +
+'<p>Für die Qualitätssicherung setzen wir auf bewährte Teststrategien, darunter lizenzkostenfreie Regressionstests wie Formularpositionsabgleiche – sowohl auf Ebene der Meldedaten als auch der Eingangsdaten.' +
 '<p>Selbstverständlich übernehmen wir auf Wunsch auch alle notwendigen Dokumentationsarbeiten.',
     imgUrl: 'https://images.unsplash.com/photo-1634467599263-af9793758399?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80'
   }],
