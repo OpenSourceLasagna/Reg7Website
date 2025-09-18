@@ -50,8 +50,24 @@ export class ProjectDataService {
       {
         title: 'Offenlegung: Implementieren Sie mit uns den Pillar 3 Datahub (P3DH)',
         text: 'Der Pillar 3 Datahub (P3DH) ist Teil der Gesamtstrategie der EU zur Förderung von Transparenz und Marktdisziplin. In der ersten Phase der Umsetzung wurden große Institute, die nach den CRR-Bestimmungen zur Offenlegung von Informationen aus der Säule 3 verpflichtet sind, aufgefordert den P3DH zu implementieren. \n' +
-            '\n' +
-            'Wir entwickeln eine Funktion, die den implementierten Workflow mit allen steuerungsrelevanten Kriterien exportiert. Das damit verbunden Format ist kompatibel mit dem Modellierungswerkzeug ARIS, so dass ein aus dem reg7monitor exportierter Workflow mit dem ARIS Toolset in Form eines Flussdiagramms dargestellt werden kann.',
+'\n' +
+'Der Pillar-3 Datahub (P3DH) ist ein zentrales Element der EU-Strategie zur Förderung von Transparenz und Marktdisziplin. Ziel des Vorhabens ist es, eine zentrale Plattform für die Veröffentlichung aufsichtsrechtlicher Säule-3-Informationen zu schaffen.' +
+'In der ersten Umsetzungsphase sind große Institute, die nach der CRR-Verordnung zur Offenlegung verpflichtet sind, aufgefordert, den P3DH zu implementieren.' +
+'Die meldepflichtigen Institute werden dafür in vier Gruppen eingeteilt:' +
+'Gruppe A: Vor allem große Institute auf höchster Konsolidierungsebene sowie ausgewählte große Tochtergesellschaften (einschließlich der Pilotteilnehmer)' +
+'Gruppe B: Weitere große Institute auf höchster Konsolidierungsebene' +
+'Gruppe C: Weitere Institute auf höchster Konsolidierungsebene' +
+'Gruppe D: Große Tochtergesellschaften, die nicht unter Gruppe A fallen' +
+'Bis Ende 2025 müssen Institute der Gruppen A und B ihre Offenlegungen rückwirkend zum Stichtag 30. Juni 2025 über den P3DH bereitstellen.' +
+'Der endgültige ITS-Entwurf sieht jedoch eine Übergangsregelung vor: Während dieser Phase können Institute ihre Säule-3-Pflichten weiterhin im gewohnten Zeitplan auf der eigenen Website erfüllen. In diesem Fall ist zunächst keine Übermittlung an den P3DH erforderlich – faktisch bedeutet das eine zeitliche Verschiebung.' +
+'Alle betroffenen Institute müssen jedoch spätestens Ende 2025 bzw. Anfang 2026 in der Lage sein, ihre Säule-3-Berichte einzureichen. Ab März 2026 wird die Anbindung an den P3DH für alle verpflichtend. Für eine reibungslose Integration empfehlen wir folgende Arbeitspakete:' +
+'Aufbau eines Veröffentlichungsprozesses mit direkter Anbindung an den P3DH' +
+'Sicherstellung der Datenqualität durch gründliche Prüfung aller Meldedaten unter Berücksichtigung der veröffentlichten Validierungsregeln' +
+'Nutzung der P3DH-Testeinreichung' +
+'Anpassung der Governance, um die Freigabe der eingereichten Daten auf Managementebene sicherzustellen' +
+'Da der Zeitplan eng ist und wir derzeit ähnliche Projekte begleiten, können wir weitere Institute aktiv bei der Implementierung des P3DH unterstützen.' +
+'Neben der gesetzlichen Pflicht zur Datenlieferung bietet der P3DH auch strategische Vorteile: Institute können die veröffentlichten Daten anderer Häuser mit ihren eigenen Offenlegungen vergleichen. So lässt sich die neu geschaffene Transparenz nutzen, um wertvolle Erkenntnisse über die eigene Marktposition zu gewinnen.' +
+'Für diesen Zweck stellen wir bei reg7 eine KI-gestützte Lösung bereit.',
         imgUrl: 'https://reg7.de/wp-content/uploads/2022/04/reg7-905-700x300.jpg'
       }]]);
 
