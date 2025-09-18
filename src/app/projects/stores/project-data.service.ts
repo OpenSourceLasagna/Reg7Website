@@ -10,40 +10,35 @@ export class ProjectDataService {
 
   public projects = new Map<string, Project>([['AbacusDaVinci', {
     title: 'Ablösung des Davinci-Konverter: Stellen Sie mit uns auf eine Direktanlieferung um',
-    text: 'Der bidirektionale DaVinci-Adapter transformiert die Datenanlieferung an das Meldesystem Abacus gemäß der Embedded-Strukturen in das Abacus360-Zielformat. Der Softwareanbieter Regnology wird die Wartung des Adapters Ende 2025 einstellen, so dass der Abacus-Datenstrom künftig eine Direktanlieferung der Entitäten des A360 Datenmodells erfordert.\n' +
-'\n' +
+    text: 'Der bidirektionale DaVinci-Adapter transformiert die Datenanlieferung an das Meldesystem Abacus gemäß der Embedded-Strukturen in das Abacus360-Zielformat. Der Softwareanbieter Regnology wird die Wartung des Adapters Ende 2025 einstellen, so dass der Abacus-Datenstrom künftig eine Direktanlieferung der Entitäten des A360 Datenmodells erfordert.' +
 'Eine besondere Herausforderung lag darin, dass einige Liefersysteme nur temporär anzubinden waren, bevor sie im Rahmen der Datenmigration abgeschaltet wurden. Dies galt insbesondere für die Belieferung der Abacus360 Schnittstellen zur Umsetzung von AnaCredit.\n' +
-'\n' +
 'Die Umstellung der ABACUS-Datenanlieferung von Embedded auf das A360-Format nach der Abschaltung des BDAs ist aufwendig. Ein strukturiertes Vorgehen ist daher entscheidend, um Personal- und Kostenaufwand zu minimieren.' +
-'Wir von reg7 GmbH begleiten Sie in allen Phasen dieses Projekts mit unserer langjährigen Erfahrung.' +
-'\n' +
-'Vorgehensmodell in drei Phasen' +
-'Ist-Analyse' +
-'Umstellungsarbeiten' +
-'Regressionstests' +
-'\n' +
-'Abhängig von den Ergebnissen der Testphase kann bei Bedarf erneut in Phase 1 oder 2 eingestiegen werden.' +
-'\n' +
-'1. Ist-Analyse' +
-'Im Fokus stehen vor allem die zentralen Entitäten POSITION und INSTRUMENT mit drei Themenfeldern:' +
-'die Datenanlieferung im Embedded-Format' +
-'additive Dateien' +
-'der Nebenbestand' +
-'Der Nebenbestand ist vergleichsweise einfach zu migrieren: Ein leeres Cluster anlegen, den Embedded-Nebenbestand einlesen, die Konverter-Verarbeitung (BDA) starten und die Ergebnisse im neuen Native-Nebenbestand ablegen.' +
-'Auch bei der Ablösung und Erstellung additiver Dateien unterstützen wir Sie mit unserer Expertise' +
-'Für die eigentliche Datenanlieferung wird ein Quartalsultimo wie gewohnt verarbeitet; die Jobkette wird jedoch nach der Konvertierung durch den BD abgebrochen. Dieser Datenstand bildet die Basis aller weiteren Analysen.' +
-'Anschließend werden sämtliche Sätze nach Kriterien wie Produktart (PRD013) oder Aktiv/Passiv-Kennzeichen (PTTY02) gruppiert. So lässt sich das bestehende Portfolio nach Geschäftstyp gliedern und in kleinere Analysepakete aufteilen.' +
-'Per SQL-Abfragen werden alle befüllten Felder in den Tabellen POSITION_A (Beträge, Zinssätze etc.), POSITION_D (Datumsfelder), POSITION_I (Schalter, Relevanzflags u. Ä.) sowie POSITION_S (Zeichenketten) und den jeweiligen INSTRUMENT-Tabellen ermittelt. Diese Felder bilden einen deutlich kleineren Teil aller potenziell möglichen Felder.' +
-'Im nächsten Schritt werden Analyseausschlüsse identifiziert:' +
-'Felder mit identischem Namen in Embedded und Native bleiben auch inhaltlich unverändert und erfordern keine Anpassung der Ableitungslogik.' +
-'DEFAULT-Felder (SOURCE_TYPE = DEFAULT) müssen nicht zwingend angeliefert werden.' +
-'Alle übrigen Felder werden in der Umsetzungsphase einzeln betrachtet. Die Ergebnisse der Ist-Analyse (z. B. Fixwerte) helfen, Arbeitspakete gezielt abzuarbeiten und den Aufwand zu reduzieren.' +
-'2. Umstellungsphase' +
+'Wir von <b>reg7 GmbH</b> begleiten Sie in allen Phasen dieses Projekts mit unserer langjährigen Erfahrung.' +
+'<p><b>Vorgehensmodell in drei Phasen</b>' +
+'<p><ul><li><b>Ist-Analyse</b></li>' +
+'<li><b>Umstellungsarbeiten</b></li>' +
+'<li><b>Regressionstests</b></li></ul>' +
+'<p>Abhängig von den Ergebnissen der Testphase kann bei Bedarf erneut in Phase 1 oder 2 eingestiegen werden.' +
+'<p><p><b>1. Ist-Analyse</b>' +
+'<p>Im Fokus stehen vor allem die zentralen Entitäten <b>POSITION</b> und <b>INSTRUMENT</b> mit drei Themenfeldern:' +
+'<p><ul><li>die Datenanlieferung im Embedded-Format</li>' +
+'<li>additive Dateien</li>' +
+'<li>der Nebenbestand</li></ul>' +
+'<p>Der Nebenbestand ist vergleichsweise einfach zu migrieren: Ein leeres Cluster anlegen, den Embedded-Nebenbestand einlesen, die Konverter-Verarbeitung (BDA) starten und die Ergebnisse im neuen Native-Nebenbestand ablegen.' +
+'<p>Auch bei der Ablösung und Erstellung additiver Dateien unterstützen wir Sie mit unserer Expertise' +
+'<p>Für die eigentliche Datenanlieferung wird ein Quartalsultimo wie gewohnt verarbeitet; die Jobkette wird jedoch nach der Konvertierung durch den BD abgebrochen. Dieser Datenstand bildet die Basis aller weiteren Analysen.' +
+'<p>Anschließend werden sämtliche Sätze nach Kriterien wie <b>Produktart (PRD013)</b> oder <b>Aktiv/Passiv-Kennzeichen (PTTY02)</b> gruppiert. So lässt sich das bestehende Portfolio nach Geschäftstyp gliedern und in kleinere Analysepakete aufteilen.' +
+'<p>Per SQL-Abfragen werden alle befüllten Felder in den Tabellen <b>POSITION_A</b> (Beträge, Zinssätze etc.), <b>POSITION_D</b> (Datumsfelder), <b>POSITION_I</b> (Schalter, Relevanzflags u. Ä.) sowie <b>POSITION_S</b> (Zeichenketten) und den jeweiligen <b>INSTRUMENT</b>-Tabellen ermittelt. Diese Felder bilden einen deutlich kleineren Teil aller potenziell möglichen Felder.' +
+'<p>Im nächsten Schritt werden Analyseausschlüsse identifiziert:' +
+'<p><ul><li>Felder mit identischem Namen in Embedded und Native bleiben auch inhaltlich unverändert und erfordern keine Anpassung der Ableitungslogik.</li>' +
+'<li><b>DEFAULT</b>-Felder (SOURCE_TYPE = DEFAULT) müssen nicht zwingend angeliefert werden.</li>' +
+'<li>Alle übrigen Felder werden in der Umsetzungsphase einzeln betrachtet. Die Ergebnisse der Ist-Analyse (z. B. Fixwerte) helfen, Arbeitspakete gezielt abzuarbeiten und den Aufwand zu reduzieren.</li></ul>' +
+'<p><p><b>2. Umstellungsphase</b>' +
 'Gemeinsam mit Ihrer Fachabteilung erstellen wir Mapping-Tabellen, die die Konverterregeln für Ihr Geschäftsportfolio exakt abbilden. Dabei berücksichtigen wir die Functional Units des BDAs.' +
 'Wir koordinieren und unterstützen sowohl die Abstimmung zwischen Fachbereich und IT als auch die technische Umstellung Ihrer Quellsysteme auf eine A360-konforme Anlieferung.' +
-'3. Regressionstest' +
+'<p><p><b>3. Regressionstest<b>' +
 'Für die Qualitätssicherung setzen wir auf bewährte Teststrategien, darunter lizenzkostenfreie Regressionstests wie Formularpositionsabgleiche – sowohl auf Ebene der Meldedaten als auch der Eingangsdaten.' +
-'Selbstverständlich übernehmen wir auf Wunsch auch alle notwendigen Dokumentationsarbeiten.',
+'<p>Selbstverständlich übernehmen wir auf Wunsch auch alle notwendigen Dokumentationsarbeiten.',
     imgUrl: 'https://images.unsplash.com/photo-1634467599263-af9793758399?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80'
   }],
     ['reg7monitor',
