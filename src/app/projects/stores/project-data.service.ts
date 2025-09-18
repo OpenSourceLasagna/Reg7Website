@@ -56,16 +56,16 @@ export class ProjectDataService {
 '<li><b>Gruppe B</b>: Weitere große Institute auf höchster Konsolidierungsebene</li>' +
 '<li><b>Gruppe C</b>: Weitere Institute auf höchster Konsolidierungsebene</li>' +
 '<li><b>Gruppe D</b>: Große Tochtergesellschaften, die nicht unter Gruppe A fallen</li></ul>' +
-'Bis Ende 2025 müssen Institute der Gruppen A und B ihre Offenlegungen rückwirkend zum Stichtag 30. Juni 2025 über den P3DH bereitstellen.' +
-'Der endgültige ITS-Entwurf sieht jedoch eine Übergangsregelung vor: Während dieser Phase können Institute ihre Säule-3-Pflichten weiterhin im gewohnten Zeitplan auf der eigenen Website erfüllen. In diesem Fall ist zunächst keine Übermittlung an den P3DH erforderlich – faktisch bedeutet das eine zeitliche Verschiebung.' +
-'Alle betroffenen Institute müssen jedoch spätestens Ende 2025 bzw. Anfang 2026 in der Lage sein, ihre Säule-3-Berichte einzureichen. Ab März 2026 wird die Anbindung an den P3DH für alle verpflichtend. Für eine reibungslose Integration empfehlen wir folgende Arbeitspakete:' +
-'Aufbau eines Veröffentlichungsprozesses mit direkter Anbindung an den P3DH' +
-'Sicherstellung der Datenqualität durch gründliche Prüfung aller Meldedaten unter Berücksichtigung der veröffentlichten Validierungsregeln' +
-'Nutzung der P3DH-Testeinreichung' +
-'Anpassung der Governance, um die Freigabe der eingereichten Daten auf Managementebene sicherzustellen' +
-'Da der Zeitplan eng ist und wir derzeit ähnliche Projekte begleiten, können wir weitere Institute aktiv bei der Implementierung des P3DH unterstützen.' +
-'Neben der gesetzlichen Pflicht zur Datenlieferung bietet der P3DH auch strategische Vorteile: Institute können die veröffentlichten Daten anderer Häuser mit ihren eigenen Offenlegungen vergleichen. So lässt sich die neu geschaffene Transparenz nutzen, um wertvolle Erkenntnisse über die eigene Marktposition zu gewinnen.' +
-'Für diesen Zweck stellen wir bei reg7 eine KI-gestützte Lösung bereit.',
+'Bis <b>Ende 2025</b> müssen Institute der Gruppen A und B ihre Offenlegungen rückwirkend zum Stichtag 30. Juni 2025 über den P3DH bereitstellen.' +
+'<p><p>Der endgültige ITS-Entwurf sieht jedoch eine <b>Übergangsregelung</b> vor: Während dieser Phase können Institute ihre Säule-3-Pflichten weiterhin im gewohnten Zeitplan auf der eigenen Website erfüllen. In diesem Fall ist zunächst keine Übermittlung an den P3DH erforderlich – faktisch bedeutet das eine zeitliche Verschiebung.' +
+'<p>Alle betroffenen Institute müssen jedoch spätestens <b>Ende 2025 bzw. Anfang 2026</b> in der Lage sein, ihre Säule-3-Berichte einzureichen. Ab <b>März 2026</b> wird die Anbindung an den P3DH für alle verpflichtend. Für eine reibungslose Integration empfehlen wir folgende Arbeitspakete:' +
+'<p><ul><li>Aufbau eines <b>Veröffentlichungsprozesses</b> mit direkter Anbindung an den P3DH</li>' +
+'<li><b>Sicherstellung der Datenqualität</b> durch gründliche Prüfung aller Meldedaten unter Berücksichtigung der veröffentlichten Validierungsregeln</li>' +
+'<li>Nutzung der <b>P3DH-Testeinreichung</b></li>' +
+'<li><b>Anpassung der Governance</b>, um die Freigabe der eingereichten Daten auf Managementebene sicherzustellen</li></ul>' +
+'<p><p>Da der Zeitplan eng ist und wir derzeit ähnliche Projekte begleiten, können wir weitere Institute aktiv bei der Implementierung des P3DH unterstützen.' +
+'Neben der gesetzlichen Pflicht zur Datenlieferung bietet der P3DH auch <b>strategische Vorteile</b>: Institute können die veröffentlichten Daten anderer Häuser mit ihren eigenen Offenlegungen vergleichen. So lässt sich die neu geschaffene Transparenz nutzen, um wertvolle Erkenntnisse über die eigene Marktposition zu gewinnen.' +
+'<p>Für diesen Zweck stellen wir bei <b>reg7 GmbH</b> eine <b>KI-gestützte Lösung</b> bereit.',
         imgUrl: 'https://reg7.de/wp-content/uploads/2022/04/reg7-905-700x300.jpg'
       }]]);
 
