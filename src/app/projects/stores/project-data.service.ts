@@ -49,13 +49,13 @@ export class ProjectDataService {
     ['reg7monitor',
       {
         title: 'Offenlegung: Implementieren Sie mit uns den Pillar 3 Datahub (P3DH)',
-        text: 'Der <b>Pillar 3 Datahub (P3DH)</b> ist Teil der Gesamtstrategie der EU zur Förderung von Transparenz und Marktdisziplin. In der ersten Phase der Umsetzung wurden große Institute, die nach den CRR-Bestimmungen zur Offenlegung von Informationen aus der Säule 3 verpflichtet sind, aufgefordert den P3DH zu implementieren. \n' +
-'\n' +
-'Die meldepflichtigen Institute werden dafür in vier Gruppen eingeteilt:' +
-'Gruppe A: Vor allem große Institute auf höchster Konsolidierungsebene sowie ausgewählte große Tochtergesellschaften (einschließlich der Pilotteilnehmer)' +
-'Gruppe B: Weitere große Institute auf höchster Konsolidierungsebene' +
-'Gruppe C: Weitere Institute auf höchster Konsolidierungsebene' +
-'Gruppe D: Große Tochtergesellschaften, die nicht unter Gruppe A fallen' +
+        text: 'Der <b>Pillar 3 Datahub (P3DH)</b> ist ein zentrales Element der EU-Strategie zur Förderung von Transparenz und Marktdisziplin. Ziel des Vorhabens ist es, eine zentrale Plattform für die Veröffentlichung aufsichtsrechtlicher Säule-3-Informationen zu schaffen.<p>\n' +
+'In der <b>ersten Umsetzungsphase</b> sind große Institute, die nach der CRR-Verordnung zur Offenlegung verpflichtet sind, aufgefordert, den P3DH zu implementieren.' +
+'<p>Die meldepflichtigen Institute werden dafür in vier Gruppen eingeteilt:' +
+'<ul><li><b>Gruppe A</b>: Vor allem große Institute auf höchster Konsolidierungsebene sowie ausgewählte große Tochtergesellschaften (einschließlich der Pilotteilnehmer)</li>' +
+'<li><b>Gruppe B</b>: Weitere große Institute auf höchster Konsolidierungsebene</li>' +
+'<li><b>Gruppe C</b>: Weitere Institute auf höchster Konsolidierungsebene</li>' +
+'<li><b>Gruppe D</b>: Große Tochtergesellschaften, die nicht unter Gruppe A fallen</li></ul>' +
 'Bis Ende 2025 müssen Institute der Gruppen A und B ihre Offenlegungen rückwirkend zum Stichtag 30. Juni 2025 über den P3DH bereitstellen.' +
 'Der endgültige ITS-Entwurf sieht jedoch eine Übergangsregelung vor: Während dieser Phase können Institute ihre Säule-3-Pflichten weiterhin im gewohnten Zeitplan auf der eigenen Website erfüllen. In diesem Fall ist zunächst keine Übermittlung an den P3DH erforderlich – faktisch bedeutet das eine zeitliche Verschiebung.' +
 'Alle betroffenen Institute müssen jedoch spätestens Ende 2025 bzw. Anfang 2026 in der Lage sein, ihre Säule-3-Berichte einzureichen. Ab März 2026 wird die Anbindung an den P3DH für alle verpflichtend. Für eine reibungslose Integration empfehlen wir folgende Arbeitspakete:' +
