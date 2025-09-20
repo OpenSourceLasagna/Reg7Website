@@ -18,7 +18,6 @@ export class ProjectDataService {
 '<p><ul><li><b>Ist-Analyse</b></li>' +
 '<li><b>Umstellungsarbeiten</b></li>' +
 '<li><b>Regressionstests</b></li></ul>' +
-'<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Ist-Analyse" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/68bdd4c53fb1f85d15024682" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>' +
 '<p><p><b>1. Ist-Analyse</b>' +
 '<p>Im Fokus stehen vor allem die zentralen Entitäten <b>POSITION</b> und <b>INSTRUMENT</b> mit drei Themenfeldern:' +
 '<p><ul><li>die Datenanlieferung im Embedded-Format</li>' +
