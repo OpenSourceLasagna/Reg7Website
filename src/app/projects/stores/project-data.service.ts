@@ -9,7 +9,7 @@ import {Project} from "src/app/projects/interfacesAndTypes/project";
 export class ProjectDataService {
 
   public projects = new Map<string, Project>([['AbacusDaVinci', {
-    title: 'Ablösung des Davinci-Konverter: Stellen Sie mit uns auf eine Direktanlieferung um',
+    title: 'Davinci-Konverter: Stellen Sie mit uns auf eine Direktanlieferung um',
     text: 'Der bidirektionale DaVinci-Adapter transformiert die Datenanlieferung an das Meldesystem Abacus gemäß der Embedded-Strukturen in das Abacus360-Zielformat. Der Softwareanbieter Regnology wird die Wartung des Adapters Ende 2025 einstellen, so dass der Abacus-Datenstrom künftig eine Direktanlieferung der Entitäten des A360 Datenmodells erfordert.' +
 'Eine besondere Herausforderung lag darin, dass einige Liefersysteme nur temporär anzubinden waren, bevor sie im Rahmen der Datenmigration abgeschaltet wurden. Dies galt insbesondere für die Belieferung der Abacus360 Schnittstellen zur Umsetzung von AnaCredit.\n' +
 'Die Umstellung der ABACUS-Datenanlieferung von Embedded auf das A360-Format nach der Abschaltung des BDAs ist aufwendig. Ein strukturiertes Vorgehen ist daher entscheidend, um Personal- und Kostenaufwand zu minimieren.' +
@@ -18,7 +18,7 @@ export class ProjectDataService {
 '<p><ul><li><b>Ist-Analyse</b></li>' +
 '<li><b>Umstellungsarbeiten</b></li>' +
 '<li><b>Regressionstests</b></li></ul>' +
-'<p>Abhängig von den Ergebnissen der Testphase kann bei Bedarf erneut in Phase 1 oder 2 eingestiegen werden.' +
+'<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Ist-Analyse" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/68bdd4c53fb1f85d15024682" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>' +
 '<p><p><b>1. Ist-Analyse</b>' +
 '<p>Im Fokus stehen vor allem die zentralen Entitäten <b>POSITION</b> und <b>INSTRUMENT</b> mit drei Themenfeldern:' +
 '<p><ul><li>die Datenanlieferung im Embedded-Format</li>' +
@@ -26,7 +26,7 @@ export class ProjectDataService {
 '<li>der Nebenbestand</li></ul>' +
 '<p>Der Nebenbestand ist vergleichsweise einfach zu migrieren: Ein leeres Cluster anlegen, den Embedded-Nebenbestand einlesen, die Konverter-Verarbeitung (BDA) starten und die Ergebnisse im neuen Native-Nebenbestand ablegen.' +
 '<p>Auch bei der Ablösung und Erstellung additiver Dateien unterstützen wir Sie mit unserer Expertise' +
-'<p>Für die eigentliche Datenanlieferung wird ein Quartalsultimo wie gewohnt verarbeitet; die Jobkette wird jedoch nach der Konvertierung durch den BD abgebrochen. Dieser Datenstand bildet die Basis aller weiteren Analysen.' +
+'<p>Für die eigentliche Datenanlieferung wird ein Quartalsultimo wie gewohnt verarbeitet; die Jobkette wird jedoch nach der Konvertierung durch den BDA abgebrochen. Dieser Datenstand bildet die Basis aller weiteren Analysen.' +
 '<p>Anschließend werden sämtliche Sätze nach Kriterien wie <b>Produktart (PRD013)</b> oder <b>Aktiv/Passiv-Kennzeichen (PTTY02)</b> gruppiert. So lässt sich das bestehende Portfolio nach Geschäftstyp gliedern und in kleinere Analysepakete aufteilen.' +
 '<p>Per SQL-Abfragen werden alle befüllten Felder in den Tabellen <b>POSITION_A</b> (Beträge, Zinssätze etc.), <b>POSITION_D</b> (Datumsfelder), <b>POSITION_I</b> (Schalter, Relevanzflags u. Ä.) sowie <b>POSITION_S</b> (Zeichenketten) und den jeweiligen <b>INSTRUMENT</b>-Tabellen ermittelt. Diese Felder bilden einen deutlich kleineren Teil aller potenziell möglichen Felder.' +
 '<p>Im nächsten Schritt werden Analyseausschlüsse identifiziert:' +
@@ -43,7 +43,7 @@ export class ProjectDataService {
   }],
     ['reg7monitor',
       {
-        title: 'Offenlegung: Implementieren Sie mit uns den Pillar 3 Datahub (P3DH)',
+        title: 'Implementieren Sie mit uns den Pillar 3 Datahub (P3DH)',
         text: 'Der <b>Pillar 3 Datahub (P3DH)</b> ist ein zentrales Element der EU-Strategie zur Förderung von Transparenz und Marktdisziplin. Ziel des Vorhabens ist es, eine zentrale Plattform für die Veröffentlichung aufsichtsrechtlicher Säule-3-Informationen zu schaffen.<p>\n' +
 'In der <b>ersten Umsetzungsphase</b> sind große Institute, die nach der CRR-Verordnung zur Offenlegung verpflichtet sind, aufgefordert, den P3DH zu implementieren.' +
 '<p>Die meldepflichtigen Institute werden dafür in vier Gruppen eingeteilt:' +
