@@ -50,12 +50,12 @@ export class ProjectDataService {
 '<li><b>Gruppe B</b>: Weitere große Institute auf höchster Konsolidierungsebene</li>' +
 '<li><b>Gruppe C</b>: Weitere Institute auf höchster Konsolidierungsebene</li>' +
 '<li><b>Gruppe D</b>: Große Tochtergesellschaften, die nicht unter Gruppe A fallen</li></ul>' +
-'Bis <b>Ende 2025</b> müssen Institute der Gruppen A und B ihre Offenlegungen rückwirkend zum Stichtag 30. Juni 2025 über den P3DH bereitstellen.' +
+'Bis <b>Ende Juni 2026</b> müssen Institute der Gruppen A und B ihre Offenlegungen rückwirkend voraussichtlich zum Stichtag 31. März 2026 über den P3DH bereitstellen.' +
 '<p><p>Der endgültige ITS-Entwurf sieht jedoch eine <b>Übergangsregelung</b> vor: Während dieser Phase können Institute ihre Säule-3-Pflichten weiterhin im gewohnten Zeitplan auf der eigenen Website erfüllen. In diesem Fall ist zunächst keine Übermittlung an den P3DH erforderlich – faktisch bedeutet das eine zeitliche Verschiebung.' +
-'<p>Alle betroffenen Institute müssen jedoch spätestens <b>Ende 2025 bzw. Anfang 2026</b> in der Lage sein, ihre Säule-3-Berichte einzureichen. Ab <b>März 2026</b> wird die Anbindung an den P3DH für alle verpflichtend. Für eine reibungslose Integration empfehlen wir folgende Arbeitspakete:' +
+'<p>Alle betroffenen Institute müssen jedoch spätestens <b>Mitte 2026 bzw. Ende 2026</b> in der Lage sein, ihre Säule-3-Berichte einzureichen. Ab <b>Anfang 2027</b> wird die Anbindung an den P3DH für alle verpflichtend. Für eine reibungslose Integration empfehlen wir folgende Arbeitspakete:' +
 '<p><ul><li>Aufbau eines <b>Veröffentlichungsprozesses</b> mit direkter Anbindung an den P3DH</li>' +
 '<li><b>Sicherstellung der Datenqualität</b> durch gründliche Prüfung aller Meldedaten unter Berücksichtigung der veröffentlichten Validierungsregeln</li>' +
-'<li>Nutzung der <b>P3DH-Testeinreichung</b></li>' +
+'<li>Nutzung der <b>P3DH-Testeinreichung</b> (aktuell im Aufbau)</li>' +
 '<li><b>Anpassung der Governance</b>, um die Freigabe der eingereichten Daten auf Managementebene sicherzustellen</li></ul>' +
 '<p><p>Da der Zeitplan eng ist und wir derzeit ähnliche Projekte begleiten, können wir weitere Institute aktiv bei der Implementierung des P3DH unterstützen.' +
 'Neben der gesetzlichen Pflicht zur Datenlieferung bietet der P3DH auch <b>strategische Vorteile</b>: Institute können die veröffentlichten Daten anderer Häuser mit ihren eigenen Offenlegungen vergleichen. So lässt sich die neu geschaffene Transparenz nutzen, um wertvolle Erkenntnisse über die eigene Marktposition zu gewinnen.' +
