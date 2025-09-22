@@ -13,8 +13,8 @@ export class ProjectDataService {
     text: 'Der bidirektionale DaVinci-Adapter transformiert die Datenanlieferung an das Meldesystem Abacus gemäß der Embedded-Strukturen in das Abacus360-Zielformat. Der Softwareanbieter Regnology wird die Wartung des Adapters Ende 2025 einstellen, so dass der Abacus-Datenstrom künftig eine Direktanlieferung der Entitäten des A360 Datenmodells erfordert.' +
 'Eine besondere Herausforderung lag darin, dass einige Liefersysteme nur temporär anzubinden waren, bevor sie im Rahmen der Datenmigration abgeschaltet wurden. Dies galt insbesondere für die Belieferung der Abacus360 Schnittstellen zur Umsetzung von AnaCredit.\n' +
 'Die Umstellung der ABACUS-Datenanlieferung von Embedded auf das A360-Format nach der Abschaltung des BDAs ist aufwendig. Ein strukturiertes Vorgehen ist daher entscheidend, um Personal- und Kostenaufwand zu minimieren.' +
-'Wir von <b>reg7 GmbH</b> begleiten Sie in allen Phasen dieses Projekts mit unserer langjährigen Erfahrung.' +
-'<p><b>Vorgehensmodell in drei Phasen</b>' +
+' Wir von <b>reg7 GmbH</b> begleiten Sie in allen Phasen dieses Projekts mit unserer langjährigen Erfahrung.' +
+'<p><p><b>Vorgehensmodell in drei Phasen</b>' +
 '<p><ul><li><b>Ist-Analyse</b></li>' +
 '<li><b>Umstellungsarbeiten</b></li>' +
 '<li><b>Regressionstests</b></li></ul>' +
