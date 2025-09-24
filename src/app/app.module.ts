@@ -55,11 +55,11 @@ const appRoutes: Routes = [
         path: 'projekte',
         loadChildren: () => import('src/app/projects/projects-page/projects.module').then((m) => m.ProjectsModule),
     },
-    {
-        path: 'team',
-        loadChildren: () => import('src/app/team/team-page/team-page.module')
-            .then((m) => m.TeamPageModule)
-    },
+    // {
+    //     path: 'team',
+    //     loadChildren: () => import('src/app/team/team-page/team-page.module')
+    //         .then((m) => m.TeamPageModule)
+    // },
     {
         path: 'leistungen',
         loadChildren: () => import('src/app/services/services-module/services.module')
@@ -97,10 +97,6 @@ const lazyConfig = [
 // TODO: app shell und angular universal für schnellere ladezeiten:
 // https://blog.angular-university.io/angular-app-shell/
 
-// TODO: SEO
-// https://www.youtube.com/watch?v=ANyOZIcGvB8
-
-// TODO: remove all unused components
 @NgModule({
     declarations: [
         AppComponent,

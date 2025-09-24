@@ -1,12 +1,27 @@
 @use "sass:math";
 
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-//OPEN SANS REGULAR
-//@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap'); //RUBIK REGULAR
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
-//RUBIK MEDIUM 500
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/OpenSans400Latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/OpenSans700Latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/Lato400Latin.woff2') format('woff2');
+}
+
 //LATO REG 400
 /* Importing and overwriting Bootstrap SCSS file. */
 @import '../../node_modules/bootstrap/scss/bootstrap';
