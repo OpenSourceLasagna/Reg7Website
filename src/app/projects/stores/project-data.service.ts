@@ -18,7 +18,8 @@ export class ProjectDataService {
 '<p><ul><li><b>Ist-Analyse</b></li>' +
 '<li><b>Umstellungsarbeiten</b></li>' +
 '<li><b>Regressionstests</b></li></ul>' +
-'<p><p><b>1. Ist-Analyse</b>' +
+'<img src="assets/img/Converter-1.png" alt="Prozessdiagramm" width="100%" style="height:auto;box-shadow:0 0 12px rgba(0,0,0,0.3);border-radius:6px;"><br\>' +
+'<b>1. Ist-Analyse</b>' +
 '<p>Im Fokus stehen vor allem die zentralen Entitäten <b>POSITION</b> und <b>INSTRUMENT</b> mit drei Themenfeldern:' +
 '<p><ul><li>die Datenanlieferung im Embedded-Format</li>' +
 '<li>additive Dateien</li>' +
@@ -38,7 +39,7 @@ export class ProjectDataService {
 '<p><p><b>3. Regressionstest</b>' +
 '<p>Für die Qualitätssicherung setzen wir auf bewährte Teststrategien, darunter lizenzkostenfreie Regressionstests wie Formularpositionsabgleiche – sowohl auf Ebene der Meldedaten als auch der Eingangsdaten.' +
 '<p>Selbstverständlich übernehmen wir auf Wunsch auch alle notwendigen Dokumentationsarbeiten.',
-    imgUrl: 'https://images.unsplash.com/photo-1634467599263-af9793758399?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80'
+    imgUrl: 'assets/img/frankfurt_sun_skyline-min.jpg'
   }],
     ['reg7monitor',
       {
@@ -60,7 +61,7 @@ export class ProjectDataService {
 '<p><p>Da der Zeitplan eng ist und wir derzeit ähnliche Projekte begleiten, können wir weitere Institute aktiv bei der Implementierung des P3DH unterstützen.' +
 'Neben der gesetzlichen Pflicht zur Datenlieferung bietet der P3DH auch <b>strategische Vorteile</b>: Institute können die veröffentlichten Daten anderer Häuser mit ihren eigenen Offenlegungen vergleichen. So lässt sich die neu geschaffene Transparenz nutzen, um wertvolle Erkenntnisse über die eigene Marktposition zu gewinnen.' +
 '<p>Für diesen Zweck stellen wir bei <b>reg7 GmbH</b> eine <b>KI-gestützte Lösung</b> bereit.',
-        imgUrl: 'https://reg7.de/wp-content/uploads/2022/04/reg7-905-700x300.jpg'
+        imgUrl: 'assets/img/reg7-905-700x300.jpg'
       }]]);
 
  // constructor() {

@@ -15,9 +15,4 @@ export class ProjectCardComponent {
     showMoreClick(id: number | string) {
         this.showMore.emit(id);
     }
-
-    c(projectKey: number | string | any) {
-        console.log(projectKey);
-        console.log(this.projectKey);
-    }
 }
