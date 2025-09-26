@@ -8,7 +8,7 @@ import {Project} from "src/app/projects/interfacesAndTypes/project";
 })
 export class ProjectDataService {
 
-  public projects = new Map<string, Project>([['AbacusDaVinci', {
+  public projects = new Map<string, Project>([['BDA', {
     title: 'Davinci-Konverter: Stellen Sie mit uns auf eine Direktanlieferung um',
     text: 'Der bidirektionale DaVinci-Adapter transformiert die Datenanlieferung an das Meldesystem Abacus gemäß der Embedded-Strukturen in das Abacus360-Zielformat. Der Softwareanbieter Regnology wird die Wartung des Adapters Ende 2025 einstellen, so dass der Abacus-Datenstrom künftig eine Direktanlieferung der Entitäten des A360 Datenmodells erfordert.' +
 'Eine besondere Herausforderung lag darin, dass einige Liefersysteme nur temporär anzubinden waren, bevor sie im Rahmen der Datenmigration abgeschaltet wurden. Dies galt insbesondere für die Belieferung der Abacus360 Schnittstellen zur Umsetzung von AnaCredit.\n' +
@@ -41,7 +41,7 @@ export class ProjectDataService {
 '<p>Selbstverständlich übernehmen wir auf Wunsch auch alle notwendigen Dokumentationsarbeiten.',
     imgUrl: 'assets/img/frankfurt_sun_skyline-min.jpg'
   }],
-    ['reg7monitor',
+    ['P3DH',
       {
         title: 'Implementieren Sie mit uns den Pillar 3 Datahub (P3DH)',
         text: 'Der <b>Pillar 3 Datahub (P3DH)</b> ist ein zentrales Element der EU-Strategie zur Förderung von Transparenz und Marktdisziplin. Ziel des Vorhabens ist es, eine zentrale Plattform für die Veröffentlichung aufsichtsrechtlicher Säule-3-Informationen zu schaffen.<p>\n' +
