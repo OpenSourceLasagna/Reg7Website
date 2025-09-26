@@ -64,12 +64,12 @@ export class ProjectDataService {
         imgUrl: 'assets/img/reg7-905-700x300.jpg'
       }]]);
 
-  constructor() {
+//  constructor() {
 
-    for (let i = 1; i <= 1; i++) {
+//    for (let i = 1; i <= 1; i++) {
 
-       @ts-ignore
-      this.projects.set('Abacus' + i.toString(), this.projects.get('BaselIVProjekt'));
-    }
-  }
+//       @ts-ignore
+//      this.projects.set('Abacus' + i.toString(), this.projects.get('BaselIVProjekt'));
+//    }
+//  }
 }
