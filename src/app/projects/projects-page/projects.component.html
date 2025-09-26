@@ -23,7 +23,7 @@
                 <app-project-card [projectKey]="project.key" [project]="project.value"></app-project-card>
             </div>
         </div>
-    </div>
+    </div>	
     <div class="wholeCol" style="margin: 0 auto;">
         <div class="card-deck">
             <div *ngFor="let project of projectData.projects | keyvalue | slice: 3"
@@ -64,6 +64,13 @@
             <!--                    <button type="button" class="btn btn-info">HEY</button>-->
             <!--                </div>-->
             <!--            </div>-->
+        </div>
+    </div>
+    <div class="wholeCol" style="margin: 0 auto;">
+        <div class="card-deck">
+            <div *ngFor="let project of projectData.projects | keyvalue | slice: 3"
+                 class="mobile-padding-bottom col-12 col-md-4 justify-content-center third-project-card-wrapper">
+                <app-project-card [projectKey]="project.key" [project]="project.value"></app-project-card>
         </div>
     </div>
 </div>
