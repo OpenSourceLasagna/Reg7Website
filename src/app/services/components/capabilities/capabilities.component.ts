@@ -73,7 +73,7 @@ C448,363.523,452.478,368,458,368z"/>
     color: '#032C42',
     fontColor: '#FFFFFF',
   }, {
-    title: 'fachliche&shy; Analyse&shy; von Meldeinhalten',
+    title: 'Fachliche&shy; Analyse&shy; von Meldeinhalten',
     icon: '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"'
         + ' viewBox="0 0 502 502" style="enable-background:new 0 0 418.293 418.293;" xml:space="preserve">'
         + '<g>'
@@ -429,7 +429,7 @@ C448,363.523,452.478,368,458,368z"/>
 
     },
     {
-      title: 'RegBot (KI-Analysen der Melde&shy;ergebnisse)', 
+      title: 'RegBot (KI-Analysen der Melde&shy;ergebnisse)',
       icon: '<svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">'
           + '<path d="M5 12V18C5 18 5 21 12 21C19 21 19 18 19 18V12" stroke="#FFFFFF" stroke-width="1.5"/>'
           + '<path d="M5 6V12C5 12 5 15 12 15C19 15 19 12 19 12V6" stroke="#FFFFFF" stroke-width="1.5"/>'
