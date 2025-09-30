@@ -13,7 +13,7 @@ p {
   background-blend-mode: darken;
   background-color: $info;
   @include media-breakpoint-down(md) {
-    padding-top: calc(100vh - 56px);
+    padding-top: calc(100vh);
     max-height: 250vmin;
   }
   @include media-breakpoint-up(md) {
@@ -58,7 +58,7 @@ p {
   //text-align: center !important;
   width: 100%;
   @include media-breakpoint-down(md) {
-    top: 30%; //55
+    top: 10% //55
   }
   @include media-breakpoint-up(md) {
     padding-top: 10vh; //25
